@@ -1,7 +1,8 @@
 
 
 def Task myTask = task ex43GroupTask
-myTask.group = BasePlugin.BUILD_GROUP
+//group名字可以自定义
+myTask.group = "Android"//BasePlugin.BUILD_GROUP
 myTask.description = '这是一个构建的引导任务'
 
 myTask.doLast {
